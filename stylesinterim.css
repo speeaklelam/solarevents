@@ -54,7 +54,9 @@ nav {
 header {
     background-color: #DCE9F0;
     background-image: url(images/header-background.png);
-    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     color: #03045E;
     top: 30px;
     padding: 300px;
