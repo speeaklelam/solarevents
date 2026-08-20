@@ -1,0 +1,141 @@
+@font-face {
+    font-family: 'Butler';
+    src: url(fonts/Butler_Medium.otf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Poppins SemiBold';
+    src: url(fonts/Poppins-SemiBold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Poppins Medium';
+    src: url(fonts/Poppins-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Poppins Regular';
+    src: url(fonts/Poppins-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Poppins Italic';
+    src: url(fonts/Poppins-Italic.ttf) format('truetype');
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: #DCE9F0
+}
+
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: #DCE9F0;
+    overflow: hidden;
+}
+
+.logo {
+    float: left;
+    height: 40px;
+    margin: 20px 30px;
+}
+
+
+header {
+    background-color: #DCE9F0;
+    background-image: url(images/header-background.png);
+    background-size: 100%;
+    color: #03045E;
+    top: 30px;
+    padding: 300px;
+    text-align: center;
+}
+h1 {
+    font-family: 'Butler', sans-serif;
+    font-size: 60px;
+    margin: 0;
+}
+.subtitle {
+    font-family: 'Poppins Italic', sans-serif;
+    font-size: 18px;
+    margin: -10px 0 0 0;
+    color: #03045E;
+}
+
+.intro-section {
+    background-color: #DCE9F0;
+    padding: 100px 0px 250px 0px;
+}
+
+h2 {
+    font-family: 'Poppins Regular', sans-serif;
+    font-size: 30px;
+    margin: 0px 0 10px 0;
+    text-align: center;
+    color:#03045E;
+}
+
+.intro-section p {
+    font-family: 'Poppins Regular', sans-serif;
+    font-size: 18px;
+    margin: 0px 0 0 0;
+    text-align: center;
+    color: #7B8FA1
+}
+
+
+.footer {
+    width: 100%;
+    height: 200px;
+    background-color: #03045E;
+    color: #F5F0E8;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: auto;
+}
+
+h6 {
+    font-family: 'Poppins Semibold', sans-serif;
+    font-size: 24px;
+    margin: 0px 0px 10px 10px;
+    color: #F5F0E8;
+}
+
+.footer p {
+    font-family: 'Poppins Medium', sans-serif;
+    font-size: 14px;
+    margin: 10px 0px 0px 10px;
+    color:#F5F0E8;
+}
+
+.footer-bottom {
+    background-color: #03045E;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer-bottom p {
+    font-family: 'Poppins Medium', sans-serif;
+    color: #7B8FA1;
+    font-size: 12px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.seclogo {
+    float: center;
+    height: 30px;
+    margin: 20px 30px;
+    padding-left: 15px;
+    padding-bottom: 30px;
+}
